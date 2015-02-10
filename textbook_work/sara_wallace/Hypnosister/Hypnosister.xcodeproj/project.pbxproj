@@ -14,6 +14,8 @@
 		FDD4A6B31A88456500C1DB88 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD4A6B21A88456500C1DB88 /* Images.xcassets */; };
 		FDD4A6B61A88456500C1DB88 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDD4A6B41A88456500C1DB88 /* LaunchScreen.xib */; };
 		FDD4A6C21A88456500C1DB88 /* HypnosisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD4A6C11A88456500C1DB88 /* HypnosisterTests.m */; };
+		FDD4A6CD1A8970E700C1DB88 /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD4A6CC1A8970E700C1DB88 /* BNRHypnosisView.m */; };
+		FDD4A6D21A899DF200C1DB88 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FDD4A6D11A899DF200C1DB88 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		FDD4A6BB1A88456500C1DB88 /* HypnosisterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HypnosisterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD4A6C01A88456500C1DB88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDD4A6C11A88456500C1DB88 /* HypnosisterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnosisterTests.m; sourceTree = "<group>"; };
+		FDD4A6CB1A8970E700C1DB88 /* BNRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRHypnosisView.h; path = ../BNRHypnosisView.h; sourceTree = "<group>"; };
+		FDD4A6CC1A8970E700C1DB88 /* BNRHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRHypnosisView.m; path = ../BNRHypnosisView.m; sourceTree = "<group>"; };
+		FDD4A6D11A899DF200C1DB88 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = "../../../../../../Downloads/Solutions/00-Resources/logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,12 +86,15 @@
 		FDD4A6A41A88456500C1DB88 /* Hypnosister */ = {
 			isa = PBXGroup;
 			children = (
+				FDD4A6CB1A8970E700C1DB88 /* BNRHypnosisView.h */,
+				FDD4A6CC1A8970E700C1DB88 /* BNRHypnosisView.m */,
 				FDD4A6A91A88456500C1DB88 /* AppDelegate.h */,
 				FDD4A6AA1A88456500C1DB88 /* AppDelegate.m */,
 				FDD4A6AC1A88456500C1DB88 /* ViewController.h */,
 				FDD4A6AD1A88456500C1DB88 /* ViewController.m */,
 				FDD4A6AF1A88456500C1DB88 /* Main.storyboard */,
 				FDD4A6B21A88456500C1DB88 /* Images.xcassets */,
+				FDD4A6D11A899DF200C1DB88 /* logo.png */,
 				FDD4A6B41A88456500C1DB88 /* LaunchScreen.xib */,
 				FDD4A6A51A88456500C1DB88 /* Supporting Files */,
 			);
@@ -199,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDD4A6D21A899DF200C1DB88 /* logo.png in Resources */,
 				FDD4A6B11A88456500C1DB88 /* Main.storyboard in Resources */,
 				FDD4A6B61A88456500C1DB88 /* LaunchScreen.xib in Resources */,
 				FDD4A6B31A88456500C1DB88 /* Images.xcassets in Resources */,
@@ -221,6 +230,7 @@
 			files = (
 				FDD4A6AE1A88456500C1DB88 /* ViewController.m in Sources */,
 				FDD4A6AB1A88456500C1DB88 /* AppDelegate.m in Sources */,
+				FDD4A6CD1A8970E700C1DB88 /* BNRHypnosisView.m in Sources */,
 				FDD4A6A81A88456500C1DB88 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +422,7 @@
 				FDD4A6C71A88456500C1DB88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDD4A6C81A88456500C1DB88 /* Build configuration list for PBXNativeTarget "HypnosisterTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +431,7 @@
 				FDD4A6CA1A88456500C1DB88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
